@@ -1,6 +1,6 @@
 import streamlit as st
-st.write("Hello world!!!!")
-st.write("---")
+# st.write("Hello world!!!!")
+# st.write("---")
 
 
 
@@ -54,8 +54,8 @@ st.write("---")
 # st.write(my_list)
 # st.write("This is a dict")
 # st.write(my_dict)
-# st.write("This is a DataFrame")
-# st.write(df)
+# # st.write("This is a DataFrame")
+# # st.write(df)
 # st.write("Alternatively, you can display a DataFrame using st.table()")
 # st.table(df)
 # st.write('---')
@@ -80,7 +80,7 @@ st.write("---")
 #                         "Col2":np.random.randint(low=25,high=80,size=10)
 #                         })
 
-#### and will plot the data
+# #### and will plot the data
 # import matplotlib.pyplot as plt
 # import seaborn as sns  
 # st.write("* Plot with Matplotlib/Seaborn") # we create a figure and plot the data
@@ -96,7 +96,7 @@ st.write("---")
 # import plotly.express as px
 # fig = px.scatter(data_frame=df, x='Col1', y='Col2',width=800,height=400)
 # st.plotly_chart(fig) # When you render a Plotly plot, you will use st.plotly_chart()
-#                      # In a jupyter notebook, we render with plt.show() 
+# #                      # In a jupyter notebook, we render with plt.show() 
 # st.write("---")
 
 
@@ -180,7 +180,7 @@ st.write("---")
 
 
 #### You probably noticed there is not much value when you randomly create widgets
-#### The idea is to assign them to a variable, and this variable is used to interact with the application
+# #### The idea is to assign them to a variable, and this variable is used to interact with the application
 # option = st.selectbox(label='Pick one:', options=[1,2,3,'A'], key="2")
 # st.write(f"* I see you selected {option}, and its type is {type(option)}")
 # st.write("---")
@@ -213,7 +213,7 @@ st.write("---")
 
 # st.write("Some song to bring light to your day")
 # st.audio(data="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars60.wav",
-#         start_time=0)
+#         start_time=30)
 # st.write("---")   
 
 # st.write("You probably have seen this video already :)")
